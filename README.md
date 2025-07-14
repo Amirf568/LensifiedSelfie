@@ -56,5 +56,5 @@ python gui.py
 
 ```bash
 docker build -t lensified-selfie .
-docker run -v $(pwd):/app lensified-selfie path/to/image.jpg output.gif
+docker run --rm -v "$PWD":/app lensified-selfie python main.py path/to/input_image.jpg output.gif
 ```
