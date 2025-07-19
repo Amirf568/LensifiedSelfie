@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="lensified-selife",
+    name="LensifiedSelfie",
     version="0.1.0",
     author="Amir",
     description="Animate sunglasses on faces with AI-powered eye detection",
